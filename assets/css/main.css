@@ -48,7 +48,22 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Box Model */
+/* BYU Dev Custom CSS */
+
+html, body {
+	background: #5D5D5D;
+}
+
+#banner {
+	background-image: linear-gradient(rgb(42, 90, 224), rgb(60, 196, 164));
+}
+
+#one {
+	background: linear-gradient(180deg,#2a5ae0,#3cc4a4);
+}
+
+
+/* Box Model 
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -1551,7 +1566,7 @@
 /* Basic */
 
 	html, body {
-		background: #1c1d26;
+		/*background: #1c1d26;*/
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2459,7 +2474,7 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
+			/*background-image: url("images/overlay.png");*/
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -2779,23 +2794,24 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e44c65;
+			background-color: #BFFB37;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #2A5AF4 !important;
 		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #e76278;
+				background-color: #BFFB37;
+				color: #2050F0;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #e13652;
+				background-color: #C5FF45;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3332,8 +3348,8 @@
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		/*background-color: #272833;*/
+		/*background-image: url("../../images/banner.jpg");*/
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3352,10 +3368,10 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/*background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
+			/*background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
+			/*background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
+			/*background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
 			content: '';
 			display: block;
 			height: 100%;
