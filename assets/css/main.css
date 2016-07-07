@@ -63,7 +63,7 @@ html, body {
 }
 
 
-/* Box Model 
+/* Box Model */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -3353,7 +3353,8 @@ html, body {
 	#banner {
 		background-attachment: fixed;
 		color: #FFFFFF;
-		background-image: linear-gradient(rgb(42, 90, 224), rgb(60, 196, 164));
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/wallpaper_web_compressed.jpg);
+		/*background-image: linear-gradient(rgb(42, 90, 224), rgb(60, 196, 164));*/
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3409,6 +3410,11 @@ html, body {
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
+
+					/* Black shadow, more legible on image background */
+					background: rgba(0,0,0,0.15);
+    				border-radius: 40px;
+    				box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
 				}
 
 			#banner .content .image {
