@@ -3131,8 +3131,12 @@ html, body {
 			.wrapper.style2 input[type="reset"].special,
 			.wrapper.style2 input[type="button"].special,
 			.wrapper.style2 .button.special {
-				background-color: #ffffff;
-				color: #BFFB37 !important;
+				background-color: #8CC704;
+				color: #F0FED0 !important;
+				box-sizing: border-box;
+				border: 1px solid #89BE03;
+				box-shadow: none !important;
+				transition: background-color .2s, color .2s, border .2s;
 			}
 
 				.wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
@@ -3142,9 +3146,10 @@ html, body {
 				.wrapper.style2 input[type="button"].special:active,
 				.wrapper.style2 .button.special:hover,
 				.wrapper.style2 .button.special:active {
-					background-color: rgba(255, 255, 255, 0.075) !important;
-					box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
+					background-color: #2A5AE0 !important;
+					border: 1px solid #1B45BA;
 					color: #ffffff !important;
+					box-shadow: none !important;
 				}
 
 				.wrapper.style2 input[type="submit"].special:active,
