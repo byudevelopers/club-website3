@@ -3353,7 +3353,7 @@ html, body {
 	#banner {
 		background-attachment: fixed;
 		color: #FFFFFF;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/wallpaper_web_compressed.jpg);
+		background-image: linear-gradient(rgba(23, 50, 91, 0.7), rgba(50, 50, 50, 0.7)), url(../../images/wallpaper_web_compressed.jpg);
 		/*background-image: linear-gradient(rgb(42, 90, 224), rgb(60, 196, 164));*/
 		background-position: center center;
 		background-size: cover;
