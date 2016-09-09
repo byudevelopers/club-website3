@@ -1600,7 +1600,7 @@ html, body {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #2A5AF4;
+		color: white;
 		text-decoration: none;
 	}
 
