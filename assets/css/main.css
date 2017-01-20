@@ -54,7 +54,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+/**********************/
 /* BYU Dev Custom CSS */
+/**********************/
 
 html, body {
 	background: #5D5D5D;
@@ -67,6 +70,39 @@ html, body {
 #join {
 	color: white;
 }
+
+.person-container {
+	display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.person-image {
+	border-radius: 85px;
+    max-height: 170px;
+    max-width: 170px;
+}
+
+.person-description {
+	padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.person-container {
+	    flex-direction: column;
+	    align-items: center;
+	    margin: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Box Model */
