@@ -207,13 +207,17 @@
 										mode:		mode,
 										top:		top,
 										bottom:		bottom,
-										initialize:	function(t) { $this.addClass('inactive'); },
+
+										// Uncomment this line to enable the scrollex on entry
+										// <3 Josh
+										// initialize:	function(t) { $this.addClass('inactive'); },
+										
 										terminate:	function(t) { $this.removeClass('inactive'); },
 										enter:		function(t) { $this.removeClass('inactive'); },
 
 										// Uncomment the line below to "rewind" when this spotlight scrolls out of view.
 
-										//leave:	function(t) { $this.addClass('inactive'); },
+										// leave:	function(t) { $this.addClass('inactive'); },
 
 									});
 
