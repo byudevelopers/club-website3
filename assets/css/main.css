@@ -78,9 +78,10 @@ html, body {
 }
 
 .person-image {
-	border-radius: 85px;
-    max-height: 170px;
-    max-width: 170px;
+    border-radius: 85px;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
 }
 
 .person-description {
