@@ -1644,11 +1644,12 @@ html, body {
 		border-bottom: dotted 1px;
 		color: white;
 		text-decoration: none;
+		border-bottom-color: transparent;
 	}
 
 		a:hover {
 			color: #EEEEEE !important;
-			border-bottom-color: transparent;
+			
 		}
 
 	strong, b {
