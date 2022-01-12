@@ -7,20 +7,23 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+header.major::after {
+  display: none;
+}
+
 /* Three columns side by side */
 
-.column {
-  /* float: left; */
-  width: 33.3%;
-  margin-bottom: 16px;
+.officer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
 
 @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+  .officer-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -87,4 +90,5 @@ body {
 
 .officer-image {
   padding: 0;
+  object-fit: cover;
 }
