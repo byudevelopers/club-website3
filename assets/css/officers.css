@@ -91,4 +91,5 @@ header.major::after {
 .officer-image {
   padding: 0;
   object-fit: cover;
+  aspect-ratio: 1;
 }
